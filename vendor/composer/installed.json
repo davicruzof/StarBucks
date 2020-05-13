@@ -1,0 +1,256 @@
+{
+    "packages": [
+        {
+            "name": "coffeecode/datalayer",
+            "version": "1.1.4",
+            "version_normalized": "1.1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robsonvleite/datalayer.git",
+                "reference": "17fecff8edb8fb5287648875f182acbb80389614"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/17fecff8edb8fb5287648875f182acbb80389614",
+                "reference": "17fecff8edb8fb5287648875f182acbb80389614",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": "^7.2"
+            },
+            "time": "2019-10-29T13:34:17+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "CoffeeCode\\DataLayer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robson V. Leite",
+                    "email": "cursos@upinside.com.br",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The data layer is a persistent abstraction component of your database that PDO",
+            "homepage": "http://www.upinside.com.br",
+            "keywords": [
+                "Coffeecode",
+                "crud",
+                "database",
+                "delete",
+                "destroy",
+                "pdo",
+                "save",
+                "upinside"
+            ],
+            "support": {
+                "issues": "https://github.com/robsonvleite/datalayer/issues",
+                "source": "https://github.com/robsonvleite/datalayer/tree/1.1.4"
+            },
+            "install-path": "../coffeecode/datalayer"
+        },
+        {
+            "name": "coffeecode/paginator",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robsonvleite/paginator.git",
+                "reference": "98b6a42ab7ee4a9ec08faa37e5cfb0a073143d2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robsonvleite/paginator/zipball/98b6a42ab7ee4a9ec08faa37e5cfb0a073143d2d",
+                "reference": "98b6a42ab7ee4a9ec08faa37e5cfb0a073143d2d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "time": "2019-03-12T14:38:13+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "CoffeeCode\\Paginator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robson V. Leite",
+                    "email": "cursos@upinside.com.br",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Paginator is simple and is ready to generate results navigation in your application",
+            "homepage": "http://www.upinside.com.br",
+            "keywords": [
+                "Coffeecode",
+                "pagination",
+                "paginator",
+                "upinside"
+            ],
+            "support": {
+                "issues": "https://github.com/robsonvleite/paginator/issues",
+                "source": "https://github.com/robsonvleite/paginator/tree/master"
+            },
+            "install-path": "../coffeecode/paginator"
+        },
+        {
+            "name": "coffeecode/uploader",
+            "version": "1.0.8",
+            "version_normalized": "1.0.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robsonvleite/uploader.git",
+                "reference": "0a85f2d44115741e5e978c2430d8d9997fd44be7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robsonvleite/uploader/zipball/0a85f2d44115741e5e978c2430d8d9997fd44be7",
+                "reference": "0a85f2d44115741e5e978c2430d8d9997fd44be7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-exif": "*",
+                "ext-gd": "*",
+                "ext-mbstring": "*",
+                "php": "^7.2"
+            },
+            "time": "2019-10-29T13:47:46+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "CoffeeCode\\Uploader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robson V. Leite",
+                    "email": "cursos@upinside.com.br",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tiago Chini",
+                    "email": "tiago.chini@hotmail.com",
+                    "role": "collaborator"
+                }
+            ],
+            "description": "It is a easy PHP upload manager for images, files and media in your application",
+            "homepage": "http://www.upinside.com.br",
+            "keywords": [
+                "Coffeecode",
+                "Image upload",
+                "file upload",
+                "media upload",
+                "upinside",
+                "upload"
+            ],
+            "support": {
+                "issues": "https://github.com/robsonvleite/uploader/issues",
+                "source": "https://github.com/robsonvleite/uploader/tree/1.0.8"
+            },
+            "install-path": "../coffeecode/uploader"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.1.5",
+            "version_normalized": "6.1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "a8bf068f64a580302026e484ee29511f661b2ad3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a8bf068f64a580302026e484ee29511f661b2ad3",
+                "reference": "a8bf068f64a580302026e484ee29511f661b2ad3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "^1.2",
+                "friendsofphp/php-cs-fixer": "^2.2",
+                "phpunit/phpunit": "^4.8 || ^5.7"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+            },
+            "time": "2020-03-14T14:23:48+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "support": {
+                "issues": "https://github.com/PHPMailer/PHPMailer/issues",
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.1.5"
+            },
+            "funding": [
+                {
+                    "url": "https://marcus.bointon.com/donations/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/Synchro",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/marcusbointon",
+                    "type": "patreon"
+                }
+            ],
+            "install-path": "../phpmailer/phpmailer"
+        }
+    ],
+    "dev": true
+}
